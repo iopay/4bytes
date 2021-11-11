@@ -6,13 +6,25 @@ const path = require("path");
 const target = "signatures"
 const stream = fs.createWriteStream(`${target}.csv`, { encoding: 'utf-8' })
 
-stream.write("bytecode,text\r\n")
+stream.write("bytecode,text,words\r\n")
 
 const dir = path.join(__dirname, target)
 
 fs.readdir(dir, (err, files) => {
   files.forEach(file => {
     const buf = fs.readFileSync(path.join(dir, file));
-    stream.write(`${file},${buf.toString()}\r\n`)
+
+    const method = buf.toString()
+      .replace(/\(.*\)$/, "")
+      .replace(/[A-Z]+/g, (word) => word[0]+word.slice(1).toLowerCase());
+
+    let words = method.split(/_{1,}/).filter(Boolean).map((word, i, arr) => {
+      if (arr.length <= 1) return word
+      if (i === 0) return word
+      return word[0].toUpperCase() + word.slice(1)
+    }).join("")
+    words = words.split(/(?=[A-Z]+)/u).join(" ")
+
+    stream.write(`${file},${buf.toString()},${words.toString()}\r\n`)
   });
 });
