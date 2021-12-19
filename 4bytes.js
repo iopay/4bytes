@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const target = "signatures"
+const target = "with_parameter_names"
 const stream = fs.createWriteStream(`${target}.csv`, { encoding: 'utf-8' })
 
 stream.write("bytecode,methodName\r\n")
@@ -16,6 +16,10 @@ fs.readdir(dir, (err, files) => {
 
     const method = buf.toString()
       .replace(/\(.*\)$/, "")
+      .replace(/[W]?BNB/, (word) => "_" + word + "_")
+      .replace(/STC/, (word) => "_" + word + "_")
+      .replace(/USD[TC]?/, (word) => "_" + word + "_")
+      .replace(/[WBI]?ETH(ER)?/g, (word) => "_" + word + "_")
       .replace(/[A-Z]+/g, (word) => word[0]+word.slice(1).toLowerCase());
 
     let words = method.split(/_{1,}/).filter(Boolean).map((word, i, arr) => {

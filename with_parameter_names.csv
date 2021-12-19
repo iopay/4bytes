@@ -349,7 +349,7 @@ bytecode,methodName
 04cf7d1c,Decrease Approval
 04d0fefe,Honey Pot
 04d10f1c,Is Valid Chainy Json
-04d88bce,Ddjeth
+04d88bce,Ddj Eth
 04d91c6a,Test Fail
 04d95ebc,Raise Buy Order Matched
 04dcad85,Test Different Token Price
@@ -1194,7 +1194,7 @@ bytecode,methodName
 0fe5904c,Biathlon Node
 0fea2297,Get Final Score
 0fed6be7,Milestone Tracker
-0fef60c5,Set Yearly Usdsalary
+0fef60c5,Set Yearly Usd Salary
 0fefc84e,Set Memory
 0ff2ae09,Participant Authority
 0ff73f8a,Contributor At
@@ -2068,7 +2068,7 @@ bytecode,methodName
 1bd95155,String To Uint
 1bde655e,Lookup Sig Name
 1bdfd675,Buy Pokemon
-1be0f793,Usdexchange
+1be0f793,Usd Exchange
 1be20ca1,Token Cap
 1be88614,Onetime Launch
 1bef9059,Protocol Token
@@ -2248,7 +2248,7 @@ bytecode,methodName
 1e4b5652,Set Kncrate
 1e4bffde,Get Begin
 1e4f95c7,Pipe Money
-1e53ff65,Set Auto Distribution Via Ethcontributions
+1e53ff65,Set Auto Distribution Via Eth Contributions
 1e5b433b,Test Transfer Control
 1e5f35f3,Prover
 1e5f9149,Get Winner
@@ -4007,7 +4007,7 @@ bytecode,methodName
 363c8d99,Utoa
 3642750a,Assert Eq24
 36475668,Get Community Data
-36489775,Usdzar
+36489775,Usd Zar
 36489907,New Proposal
 364b290c,Mock Ens Registrar
 364ddb0e,Left52
@@ -4604,7 +4604,7 @@ bytecode,methodName
 3e96e868,Add Role
 3e9807c1,Get Tracks By Artist
 3e98b93a,Get Avatar Count
-3e9ae735,Update Usdmonthly Salaries
+3e9ae735,Update Usd Monthly Salaries
 3ea17e8e,Mul
 3ea252eb,Final Options
 3ea62630,Get Track By Artist
@@ -6543,7 +6543,7 @@ bytecode,methodName
 57deba69,Cash
 57e07140,Test Transfer From Correctly Allows Delegation Of Token Ownership
 57e37b60,Get Ballot Index
-57e53d4e,Current Stage Ethcontributions
+57e53d4e,Current Stage Eth Contributions
 57e6c2f4,Is Authorized
 57ea89b6,Withdraw
 57ef34d2,Iterate Start
@@ -7317,7 +7317,7 @@ bytecode,methodName
 62706559,Get Orders
 62715547,Cast Vote
 62738998,Get Int
-6274ca4b,Set Wei Per Usdin Tge
+6274ca4b,Set Wei Per Usd In Tge
 62770252,Needs Funeral
 627af24a,Get Winner
 627c34ad,Remove Subscriber
@@ -9765,7 +9765,7 @@ bytecode,methodName
 8401e614,Length Of Permissions
 8404eefc,Add Identity
 84054d3d,Cashout
-841410cd,Max Ethcontribution
+841410cd,Max Eth Contribution
 84160ec0,Get Addresses Accounts
 84175bc9,A
 8418cf84,Init Lending
@@ -11156,7 +11156,7 @@ bytecode,methodName
 96637b10,Get Escuela
 96673397,Get Order
 966a1961,Get Time
-966a3b29,Set Jmethexchange Rate
+966a3b29,Set Jm Eth Exchange Rate
 966f1173,Vote Of
 96722f32,X
 967791a9,Sell Stakes
@@ -11290,7 +11290,7 @@ bytecode,methodName
 983b94fb,Finalize Auction
 9840a6cd,Get Subscription Value
 98419ec5,Should Throw On Attempt To Transfer When Not Owner
-98475e30,Btceth
+98475e30,Btc Eth
 984bc8c5,Place Ticket
 984e1ff4,Mock Set Should Succeed Transfers
 984e7c81,Usable Token
@@ -11558,7 +11558,7 @@ bytecode,methodName
 9b991d9b,Voting Info Team
 9b99a8e2,Reserve Token Count
 9b9c6cf3,Token Admin Contract
-9ba4dbc2,Usdbtc
+9ba4dbc2,Usd Btc
 9ba515ef,Transfer All Tokens
 9ba541c1,Get Id
 9ba63e11,Encode Operator
@@ -11958,7 +11958,7 @@ a121d8df,Test Fail Create With Parent Same Item Id
 a12301f5,Prometh Count
 a1296178,Set Presidente De Mesa Verify
 a12da89f,Deviser
-a12e9670,Set Max Ethcontribution
+a12e9670,Set Max Eth Contribution
 a139c9d2,Set Rate
 a140a687,Locals Service
 a140e4ee,Get Drop Notices
@@ -12079,7 +12079,7 @@ a2dc0c72,Create Permission
 a2dc7fd0,Get Names
 a2dcb641,Has Voted
 a2dfa2f0,Buy Sample Tokens
-a2e4683d,Ethrlink
+a2e4683d,Eth Rlink
 a2e62045,Update
 a2e91477,Public Sale Started
 a2e97cb1,Investment Wallet
@@ -12851,7 +12851,7 @@ ad6f80ff,Get Signatures
 ad726fc3,Add Internal
 ad764780,Open Controller
 ad7a3657,Set File Object Field V2
-ad7a5ff9,Auto Distribution Via Ethcontributions
+ad7a5ff9,Auto Distribution Via Eth Contributions
 ad7a672f,Total Balance
 ad7d59fc,Check Place
 ad82cf26,Dynamic Length
@@ -12961,7 +12961,7 @@ aec60bf5,Matches
 aec9c480,Includes Set
 aecc0a66,Solved
 aecd46db,Test Deposit Canbe Withdrawn
-aed4a16b,Get Yearly Usdsalary
+aed4a16b,Get Yearly Usd Salary
 aed7450f,Add Log
 aedb1c8f,Execute Contract
 aedc3c34,Distribute Founders Rewards
@@ -13322,7 +13322,7 @@ b387f8a2,Get Pegged Token Count
 b38b2261,Add Validation
 b39565a1,Add Mixed
 b397657d,End Initialization
-b398e098,Set Max Ethauto Contributions
+b398e098,Set Max Eth Auto Contributions
 b39b764e,Get Social Account Pw
 b39bf52e,Returns Two Unnamed
 b39e3387,Update Platform Contract
@@ -13755,7 +13755,7 @@ b8a10765,Change Name
 b8a3c6ea,Kpcsadministrator
 b8a7a0ec,Set Auth
 b8b27c52,Whitelist
-b8b798be,Get Yearly Usdsalaries Total
+b8b798be,Get Yearly Usd Salaries Total
 b8bca13c,Must Apply Time Check
 b8bd3dbb,Set Maker Fee
 b8bdd8dd,Close
@@ -14030,7 +14030,7 @@ bc5c0c67,Set Downtime
 bc5dc168,Balance Of Locked2 Y
 bc5e4bb4,Has Skills Check
 bc607f7b,Func From C2
-bc6171df,Send Ethto Multi Sig
+bc6171df,Send Eth To Multi Sig
 bc65229b,Withdraw From Account
 bc6c4d0f,Total Votes For Candidate
 bc71f931,Change Cro Status
@@ -16125,7 +16125,7 @@ d8e1d4f5,Get Long Share Buyer Source
 d8e5e64e,Get As Address Or Zero
 d8ebe85b,Sell Complete Sets
 d8f248b8,Get Forge
-d8f342be,Get Btceth
+d8f342be,Get Btc Eth
 d901b98c,Test1 Generation Across Blocks Increase Blocks By100
 d902ac2e,Insert Data
 d906ae2e,Lookup Bet
@@ -16648,7 +16648,7 @@ dfd200c5,Set Running
 dfd4170b,Add Rating
 dfd68973,Change Presale
 dfd8d516,Is This Internal
-dfdd3997,Max Ethauto Contributions
+dfdd3997,Max Eth Auto Contributions
 dfde567f,Process Ar
 dfe014f0,Get Cash
 dfe33846,Add Authorize Role
@@ -16903,7 +16903,7 @@ e3787c61,Test Contract
 e37c6cf8,Redeem Disavowed Tokens
 e37e60d1,Test Control Retract Not Owner
 e37f90e4,Init
-e3877391,Ddjethtoken
+e3877391,Ddj Eth Token
 e38cc06b,Test Div
 e38d7e99,Next Id
 e38f4861,Init Lock
